@@ -1,0 +1,50 @@
+.card {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Kullanıcı bilgileri */
+  .userInfo {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  /* İçerik satırları */
+  .content .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Adres, Şirket ve İletişim bölümleri */
+  .address,
+  .company,
+  .contact {
+    margin-bottom: 10px;
+  }
+  
+  /* Göster/Gizle butonlarının stili */
+  .btn {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Odaklanma efekti */
+  .focusEffect {
+    outline: none;
+    box-shadow: 0 0 0 2px #007bff;
+    border: 2px solid blue; /* Örnek olarak kenarlık stilini tanımlıyorum */
+  }
